@@ -11,19 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2d80a61-3658-4a48-9690-5e071fa65d03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/js/graphql/Login.gql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/graphql/Register.gql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql/directives.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graphql/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/graphql/schema.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/apollo.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/apollo.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/pages/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/pages/Login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/pages/Register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/pages/Register.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +203,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602493867885</updated>
       <workItem from="1602493869212" duration="14280000" />
-      <workItem from="1602575014362" duration="7703000" />
+      <workItem from="1602575014362" duration="8146000" />
     </task>
     <servers />
   </component>
@@ -244,18 +234,19 @@
       <screen x="0" y="23" width="1920" height="1001" />
     </state>
     <state x="750" y="210" key="#com.intellij.ide.util.MemberChooser/1920.23.1680.1027/0.23.1920.1001@0.23.1920.1001" timestamp="1602496010291" />
-    <state x="578" y="272" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1602580197939">
-      <screen x="0" y="23" width="1680" height="971" />
+    <state x="661" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1602600706022">
+      <screen x="0" y="23" width="1920" height="1001" />
     </state>
     <state x="578" y="272" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1680.971@0.23.1680.971" timestamp="1602580197939" />
+    <state x="661" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.23.1680.1027/0.23.1920.1001@0.23.1920.1001" timestamp="1602600706022" />
     <state x="491" y="162" key="SettingsEditor" timestamp="1602600378559">
       <screen x="0" y="23" width="1920" height="1001" />
     </state>
     <state x="491" y="162" key="SettingsEditor/1920.23.1680.1027/0.23.1920.1001@0.23.1920.1001" timestamp="1602600378559" />
-    <state x="547" y="237" width="670" height="656" key="search.everywhere.popup" timestamp="1602582379878">
-      <screen x="0" y="23" width="1680" height="971" />
+    <state x="625" y="244" width="670" height="676" key="search.everywhere.popup" timestamp="1602600693116">
+      <screen x="0" y="23" width="1920" height="1001" />
     </state>
     <state x="547" y="237" width="670" height="656" key="search.everywhere.popup/0.23.1680.971@0.23.1680.971" timestamp="1602582379878" />
-    <state x="625" y="244" width="670" height="676" key="search.everywhere.popup/1920.23.1680.1027/0.23.1920.1001@0.23.1920.1001" timestamp="1602564710571" />
+    <state x="625" y="244" width="670" height="676" key="search.everywhere.popup/1920.23.1680.1027/0.23.1920.1001@0.23.1920.1001" timestamp="1602600693116" />
   </component>
 </project>
