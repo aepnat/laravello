@@ -11,19 +11,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2d80a61-3658-4a48-9690-5e071fa65d03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/js/graphql/CardUpdate.gql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/Errors.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/pages/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/pages/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/router.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql/directives.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/graphql/directives.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/graphql/schema.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/Card.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Card.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/CardEditor.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/CardEditor.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/List.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/List.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/constants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/graphql/.graphqlconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/graphql/CardAdd.gql" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/graphql/CardAdd.gql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/graphql/CardDelete.gql" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/graphql/CardDelete.gql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/graphql/schema.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/pages/Board.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/pages/Board.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,6 +173,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1iltB8luhy3OelnsUJJxjBqOEtH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -208,7 +207,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602493867885</updated>
       <workItem from="1602493869212" duration="14280000" />
-      <workItem from="1602575014362" duration="1731000" />
+      <workItem from="1602575014362" duration="2476000" />
     </task>
     <servers />
   </component>
@@ -243,10 +242,10 @@
       <screen x="0" y="23" width="1920" height="1001" />
     </state>
     <state x="491" y="162" key="SettingsEditor/1920.23.1680.1027/0.23.1920.1001@0.23.1920.1001" timestamp="1602561963021" />
-    <state x="547" y="237" width="670" height="656" key="search.everywhere.popup" timestamp="1602576589987">
+    <state x="547" y="237" width="670" height="656" key="search.everywhere.popup" timestamp="1602577298244">
       <screen x="0" y="23" width="1680" height="971" />
     </state>
-    <state x="547" y="237" width="670" height="656" key="search.everywhere.popup/0.23.1680.971@0.23.1680.971" timestamp="1602576589987" />
+    <state x="547" y="237" width="670" height="656" key="search.everywhere.popup/0.23.1680.971@0.23.1680.971" timestamp="1602577298244" />
     <state x="625" y="244" width="670" height="676" key="search.everywhere.popup/1920.23.1680.1027/0.23.1920.1001@0.23.1920.1001" timestamp="1602564710571" />
   </component>
 </project>
