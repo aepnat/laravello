@@ -5,10 +5,12 @@
     </div>
 
     <Card v-for="card in list.cards" :key="card.id" :card="card"
-          @deleted="$emit('card-deleted', {...$event, listId: list.id})"></Card>
+          @deleted="$emit('card-deleted', {...$event, listId: list.id})"
+          @updated="$emit('card-updated', {...$event, listId: list.id})"
+    ></Card>
 
-    <CardEditor v-if="editing" @closed="editing=false" :list="list"
-                @added="$emit('card-added', {...$event, listId: list.id})"></CardEditor>
+    <CardAddEditor v-if="editing" @closed="editing=false" :list="list"
+                @added="$emit('card-added', {...$event, listId: list.id})"></CardAddEditor>
     <CardAddButton v-else @click="editing=true"></CardAddButton>
   </div>
 </template>
@@ -16,14 +18,14 @@
 <script>
 import Card from "./Card";
 import CardAddButton from "./CardAddButton";
-import CardEditor from "./CardEditor";
+import CardAddEditor from "./CardAddEditor";
 
 export default {
   name: "List",
   components: {
+    CardAddEditor,
     Card,
-    CardAddButton,
-    CardEditor
+    CardAddButton
   },
   data() {
     return {

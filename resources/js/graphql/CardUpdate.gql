@@ -1,0 +1,7 @@
+mutation CARD_UPDATE($id: ID!, $title: String!) {
+    cardUpdate(id: $id, title: $title) {
+        id
+        title
+        order
+    }
+}

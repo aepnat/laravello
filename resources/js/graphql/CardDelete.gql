@@ -1,4 +1,4 @@
-mutation cardDelete($id: ID!) {
+mutation CARD_DELETE($id: ID!) {
     cardDelete(id: $id) {
         id
     }

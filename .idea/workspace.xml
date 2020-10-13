@@ -1,13 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2d80a61-3658-4a48-9690-5e071fa65d03" name="Default Changelist" comment="" />
+    <list default="true" id="d2d80a61-3658-4a48-9690-5e071fa65d03" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/js/graphql/CardUpdate.gql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/directives.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/graphql/directives.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/graphql/schema.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/Card.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Card.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/CardEditor.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/CardEditor.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/List.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/List.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/graphql/.graphqlconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/graphql/CardAdd.gql" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/graphql/CardAdd.gql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/graphql/CardDelete.gql" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/graphql/CardDelete.gql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/graphql/schema.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/pages/Board.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/pages/Board.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -19,10 +42,13 @@
       <list>
         <option value="composer.json" />
         <option value="GraphQL File" />
-        <option value="Vue Single File Component" />
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -181,14 +207,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602493867885</updated>
-      <workItem from="1602493869212" duration="12687000" />
+      <workItem from="1602493869212" duration="14280000" />
+      <workItem from="1602575014362" duration="1731000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="304" y="172" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602574360320">
+      <screen x="0" y="23" width="1680" height="971" />
+    </state>
+    <state x="304" y="172" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.971@0.23.1680.971" timestamp="1602574360320" />
     <state x="534" y="331" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602512451686">
       <screen x="0" y="23" width="1920" height="1001" />
     </state>
@@ -201,20 +243,10 @@
       <screen x="0" y="23" width="1920" height="1001" />
     </state>
     <state x="491" y="162" key="SettingsEditor/1920.23.1680.1027/0.23.1920.1001@0.23.1920.1001" timestamp="1602561963021" />
-    <state x="625" y="244" width="670" height="676" key="search.everywhere.popup" timestamp="1602564710571">
-      <screen x="0" y="23" width="1920" height="1001" />
+    <state x="547" y="237" width="670" height="656" key="search.everywhere.popup" timestamp="1602576589987">
+      <screen x="0" y="23" width="1680" height="971" />
     </state>
+    <state x="547" y="237" width="670" height="656" key="search.everywhere.popup/0.23.1680.971@0.23.1680.971" timestamp="1602576589987" />
     <state x="625" y="244" width="670" height="676" key="search.everywhere.popup/1920.23.1680.1027/0.23.1920.1001@0.23.1920.1001" timestamp="1602564710571" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/resources/js/components/List.vue</url>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
