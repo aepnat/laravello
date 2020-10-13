@@ -71,7 +71,6 @@ export default {
   },
   methods: {
     async authenticate() {
-      console.log({email: this.email, password: this.password})
       this.errors = [];
 
       try {
@@ -84,7 +83,12 @@ export default {
         })
 
         const user = response.data?.login;
-        console.log({user});
+
+        if (user) {
+          this.$store.dispatch("setLoggedIn", true).then();
+          this.$store.commit("setUser", user);
+          this.$router.push({name: "board"}).then();
+        }
       }catch(err) {
         this.errors = gqlErrors(err);
       }

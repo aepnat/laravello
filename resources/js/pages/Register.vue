@@ -93,9 +93,9 @@ export default {
         const user = response.data?.register;
 
         if (user) {
-          // this.$store.dispatch("setLoggedIn", true);
-          // this.$store.commit("setUser", user);
-          this.$router.push({ name: "board" });
+          await this.$store.dispatch("setLoggedIn", true);
+          this.$store.commit("setUser", user);
+          await this.$router.push({name: "board"});
         }
       } catch (err) {
         this.errors = gqlErrors(err);

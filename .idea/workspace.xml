@@ -11,9 +11,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2d80a61-3658-4a48-9690-5e071fa65d03" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/js/components/BoardAddModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/BoardColor.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/DropdownMenu.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/ListAddEditor.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/Modal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/UserBoardsDropdown.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/graphql/BoardAdd.gql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/graphql/ListAdd.gql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/graphql/Logout.gql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/graphql/Me.gql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/graphql/UserBoards.gql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/vuex.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Board.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Board.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graphql/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/graphql/schema.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/apollo.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/apollo.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/Card.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Card.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/CardAddEditor.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/CardAddEditor.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/List.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/List.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/graphql/BoardWithListsAndCards.gql" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/graphql/BoardWithListsAndCards.gql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/graphql/CardAdd.gql" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/graphql/CardAdd.gql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/pages/Board.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/pages/Board.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/pages/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/pages/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/pages/Register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/pages/Register.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/router.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/router.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +59,8 @@
       <list>
         <option value="composer.json" />
         <option value="GraphQL File" />
-        <option value="Vue Single File Component" />
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -203,7 +230,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602493867885</updated>
       <workItem from="1602493869212" duration="14280000" />
-      <workItem from="1602575014362" duration="8146000" />
+      <workItem from="1602575014362" duration="13742000" />
     </task>
     <servers />
   </component>
@@ -226,10 +253,10 @@
       <screen x="0" y="23" width="1680" height="971" />
     </state>
     <state x="304" y="172" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.971@0.23.1680.971" timestamp="1602574360320" />
-    <state x="534" y="331" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602512451686">
+    <state x="534" y="331" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602602383205">
       <screen x="0" y="23" width="1920" height="1001" />
     </state>
-    <state x="534" y="331" key="#com.intellij.fileTypes.FileTypeChooser/1920.23.1680.1027/0.23.1920.1001@0.23.1920.1001" timestamp="1602512451686" />
+    <state x="534" y="331" key="#com.intellij.fileTypes.FileTypeChooser/1920.23.1680.1027/0.23.1920.1001@0.23.1920.1001" timestamp="1602602383205" />
     <state x="750" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1602496010291">
       <screen x="0" y="23" width="1920" height="1001" />
     </state>
@@ -243,10 +270,10 @@
       <screen x="0" y="23" width="1920" height="1001" />
     </state>
     <state x="491" y="162" key="SettingsEditor/1920.23.1680.1027/0.23.1920.1001@0.23.1920.1001" timestamp="1602600378559" />
-    <state x="625" y="244" width="670" height="676" key="search.everywhere.popup" timestamp="1602600693116">
+    <state x="625" y="244" width="670" height="676" key="search.everywhere.popup" timestamp="1602607124874">
       <screen x="0" y="23" width="1920" height="1001" />
     </state>
     <state x="547" y="237" width="670" height="656" key="search.everywhere.popup/0.23.1680.971@0.23.1680.971" timestamp="1602582379878" />
-    <state x="625" y="244" width="670" height="676" key="search.everywhere.popup/1920.23.1680.1027/0.23.1920.1001@0.23.1920.1001" timestamp="1602600693116" />
+    <state x="625" y="244" width="670" height="676" key="search.everywhere.popup/1920.23.1680.1027/0.23.1920.1001@0.23.1920.1001" timestamp="1602607124874" />
   </component>
 </project>
