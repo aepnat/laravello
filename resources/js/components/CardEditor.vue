@@ -10,10 +10,10 @@
     ></textarea>
 
     <div class="flex">
-      <button class="rounded-sm py-1 px-3 bg-indigo-700 text-white cursor-pointer hover:bg-indigo-600 outline-none"
+      <button class="rounded-sm py-1 px-3 bg-indigo-700 text-white cursor-pointer hover:bg-indigo-600 focus:outline-none"
               @click="addCard">Add Card
       </button>
-      <button class="py-1 px-3 rounded-md hover:bg-gray-400 cursor-pointer text-gray-500 ml-2 outline-none"
+      <button class="py-1 px-3 rounded-md hover:bg-gray-400 cursor-pointer text-gray-500 ml-2 focus:outline-none"
               @click="closed">Cancel
       </button>
     </div>
@@ -23,6 +23,7 @@
 <script>
 import CardAdd from "../graphql/CardAdd.gql";
 import BoardQuery from "../graphql/BoardWithListsAndCards.gql";
+import {EVENT_CARD_ADDED} from "../constants";
 
 export default {
   name: "CardEditor",
@@ -48,20 +49,15 @@ export default {
           order: this.list.cards.length + 1
         },
         update: (store, {data: {cardAdd}}) => {
-          const data = store.readQuery({
-            query: BoardQuery,
-            variables: {
-              id: Number(self.list.board_id)
-            }
-          });
+          self.$emit('added', {
+            store,
+            data: cardAdd,
+            type: EVENT_CARD_ADDED
+          })
 
-          data.board.lists.find(list => (list.id == self.list.id)).cards.push(cardAdd);
-
-          store.writeQuery({query: BoardQuery, data});
+          self.closed();
         }
       })
-
-      this.closed();
     },
     closed() {
       this.$emit('closed');
