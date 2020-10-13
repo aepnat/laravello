@@ -62,6 +62,8 @@
 
 <script>
 import Errors from "../components/Errors";
+import {gqlErrors} from "../utils";
+import Register from "../graphql/Register.gql";
 
 export default {
   name: "Register",
@@ -76,6 +78,30 @@ export default {
       errors: []
     };
   },
+  methods: {
+    async register() {
+      this.errors = [];
+      try {
+        const response = await this.$apollo.mutate({
+          mutation: Register,
+          variables: {
+            email: this.email,
+            password: this.password,
+            name: this.name
+          }
+        });
+        const user = response.data?.register;
+
+        if (user) {
+          // this.$store.dispatch("setLoggedIn", true);
+          // this.$store.commit("setUser", user);
+          this.$router.push({ name: "board" });
+        }
+      } catch (err) {
+        this.errors = gqlErrors(err);
+      }
+    }
+  }
 }
 </script>
 

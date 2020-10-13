@@ -13,9 +13,10 @@
         <form @submit.prevent="authenticate">
           <div class="w-full mb-4">
             <input
-              type="text"
+              type="email"
               class="rounded-sm px-4 py-2 outline-none focus:outline-none border-gray-400 bg-gray-100 border-solid border-2 w-full text-sm"
               placeholder="Enter email"
+              autocomplete="email"
               v-model="email"
             />
           </div>
@@ -25,6 +26,7 @@
               type="password"
               class="rounded-sm px-4 py-2 outline-none focus:outline-none border-gray-400 bg-gray-100 border-solid border-2 w-full text-sm"
               placeholder="Enter password"
+              autocomplete="current-password"
               v-model="password"
             />
           </div>
@@ -52,6 +54,8 @@
 
 <script>
 import Errors from "../components/Errors";
+import Login from "../graphql/Login.gql";
+import {gqlErrors} from "../utils";
 
 export default {
   name: "Login",
@@ -65,6 +69,27 @@ export default {
       errors: []
     };
   },
+  methods: {
+    async authenticate() {
+      console.log({email: this.email, password: this.password})
+      this.errors = [];
+
+      try {
+        const response = await this.$apollo.mutate({
+          mutation: Login,
+          variables: {
+            email: this.email,
+            password: this.password
+          }
+        })
+
+        const user = response.data?.login;
+        console.log({user});
+      }catch(err) {
+        this.errors = gqlErrors(err);
+      }
+    }
+  }
 }
 </script>
 
